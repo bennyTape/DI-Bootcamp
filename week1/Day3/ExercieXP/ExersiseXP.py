@@ -75,10 +75,7 @@ stairway.sing_me_a_song()
 
 # Exercise 4 : Afternoon at the Zoo
 # Goal:
-
 # Create a Zoo class to manage animals. The class should allow adding animals, displaying them, selling them, and organizing them into alphabetical groups.
-
-
 class Zoo:
     def __init__(self, zoo_name):
         self.animals = []
@@ -108,9 +105,8 @@ class Zoo:
            else:
                diction[i[0]] = [i]
        print(diction)
-
+       
 brooklyn_safari = Zoo("Brooklyn Safari")
-
 # Step 3: Use the Zoo methods
 brooklyn_safari.add_animal("Giraffe")
 brooklyn_safari.add_animal("Bear")
