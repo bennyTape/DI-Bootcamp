@@ -28,14 +28,15 @@ print(diction)
 family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
 total =0
 for x,y in family.items():
-    total+=y
     if y < 3:
         print(x + " : Free")
     elif y < 12:
         print(x+ " : $10")
+        total+=10
     else:
         print(x+ " : $15")
-print("The total coast is"+str(total))
+        total+=15
+print("The total coast is "+str(total))
 
 
 

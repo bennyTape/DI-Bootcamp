@@ -49,7 +49,6 @@ wallet = "$300"
 able=[]
 money = False
 
-no_money = True
 int_wallet = int(wallet.replace('$',''))
 for item in items_purchase: 
     int_item = int(items_purchase[item].replace('$','').replace(',',''))
