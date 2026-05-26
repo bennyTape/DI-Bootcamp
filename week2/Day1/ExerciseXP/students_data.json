@@ -1,0 +1,17 @@
+[
+    {
+        "Name":"Isaac",
+        "Age":21,
+        "City":"Abidjan"
+    },
+    {
+        "Name":"Awa",
+        "Age":22,
+        "City":"Bouak\u00e9"
+    },
+    {
+        "Name":"Koffi",
+        "Age":23,
+        "City":"Yamoussoukro"
+    }
+]

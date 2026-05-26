@@ -8,13 +8,13 @@ class Circle:
     def __init__(self, radius):
         self.radius = radius
 
-    # --- Alternate constructor via class method ---
+    
     @classmethod
     def from_diameter(cls, diameter):
         """Create a Circle by specifying its diameter instead of radius."""
         return cls(diameter / 2)
 
-    # --- Properties ---
+    
     @property
     def diameter(self):
         return self.radius * 2
@@ -23,7 +23,7 @@ class Circle:
     def area(self):
         return math.pi * self.radius ** 2
 
-    # --- Dunder / Magic Methods ---
+    
     def __str__(self):
         return (
             f"Circle(radius={self.radius:.2f}, "
