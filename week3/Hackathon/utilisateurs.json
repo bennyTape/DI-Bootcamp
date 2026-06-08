@@ -1,0 +1,435 @@
+[
+  {
+    "name": "Alice",
+    "age": 27,
+    "preferences": [
+      "animation",
+      "horreur",
+      "thriller"
+    ],
+    "watch_history": [
+      {
+        "movie": "Get Out",
+        "genre": "horreur",
+        "director": "Peele",
+        "rating": 3
+      },
+      {
+        "movie": "The Hangover",
+        "genre": "comédie",
+        "director": "Phillips",
+        "rating": 3
+      },
+      {
+        "movie": "Toy Story",
+        "genre": "animation",
+        "director": "Lasseter",
+        "rating": 4
+      },
+      {
+        "movie": "Midsommar",
+        "genre": "horreur",
+        "director": "Aster",
+        "rating": 4
+      },
+      {
+        "movie": "The Notebook",
+        "genre": "romance",
+        "director": "Cassavetes",
+        "rating": 1
+      },
+      {
+        "movie": "Get Out",
+        "genre": "horreur",
+        "director": "Peele",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "name": "Bob",
+    "age": null,
+    "preferences": [
+      "action",
+      "thriller"
+    ],
+    "watch_history": [
+      {
+        "movie": "The Dark Knight",
+        "genre": "inconnu",
+        "director": "Nolan",
+        "rating": 4
+      },
+      {
+        "movie": "Parasite",
+        "genre": "thriller",
+        "director": "Bong",
+        "rating": 3
+      },
+      {
+        "movie": "The Dark Knight",
+        "genre": "action",
+        "director": "Nolan",
+        "rating": 4
+      },
+      {
+        "movie": "Mad Max",
+        "genre": "action",
+        "director": "Miller",
+        "rating": 5
+      },
+      {
+        "movie": "Get Out",
+        "genre": "horreur",
+        "director": "Peele",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "name": "Clara",
+    "age": 38,
+    "preferences": [
+      "action",
+      "comédie"
+    ],
+    "watch_history": [
+      {
+        "movie": "The Hangover",
+        "genre": "comédie",
+        "director": "Phillips",
+        "rating": 3
+      },
+      {
+        "movie": "Toy Story",
+        "genre": "animation",
+        "director": "Lasseter",
+        "rating": 1
+      },
+      {
+        "movie": "Interstellar",
+        "genre": "sci-fi",
+        "director": "Nolan",
+        "rating": 3
+      },
+      {
+        "movie": "Get Out",
+        "genre": "horreur",
+        "director": "Peele",
+        "rating": 2
+      },
+      {
+        "movie": "Avengers",
+        "genre": "action",
+        "director": null,
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "name": "David",
+    "age": null,
+    "preferences": [
+      "comédie",
+      "action"
+    ],
+    "watch_history": [
+      {
+        "movie": "The Hangover",
+        "genre": "comédie",
+        "director": "Phillips",
+        "rating": 4
+      },
+      {
+        "movie": "La La Land",
+        "genre": "romance",
+        "director": "Chazelle",
+        "rating": 2
+      },
+      {
+        "movie": "Superbad",
+        "genre": "comédie",
+        "director": "Mottola",
+        "rating": 4
+      },
+      {
+        "movie": "Parasite",
+        "genre": "thriller",
+        "director": "Bong",
+        "rating": 3
+      },
+      {
+        "movie": "Superbad",
+        "genre": "comédie",
+        "director": "Mottola",
+        "rating": 3
+      },
+      {
+        "movie": "Avengers",
+        "genre": "action",
+        "director": "Russo",
+        "rating": 3
+      },
+      {
+        "movie": "The Dark Knight",
+        "genre": "action",
+        "director": "Nolan",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "name": "Eva",
+    "age": 28,
+    "preferences": [
+      "animation",
+      "romance"
+    ],
+    "watch_history": [
+      {
+        "movie": "Toy Story",
+        "genre": "animation",
+        "director": "Lasseter",
+        "rating": 3
+      },
+      {
+        "movie": "Toy Story",
+        "genre": "animation",
+        "director": null,
+        "rating": 5
+      },
+      {
+        "movie": "Toy Story",
+        "genre": "animation",
+        "director": "Lasseter",
+        "rating": 3
+      },
+      {
+        "movie": "Parasite",
+        "genre": "thriller",
+        "director": "Bong",
+        "rating": null
+      },
+      {
+        "movie": "The Notebook",
+        "genre": "romance",
+        "director": "Cassavetes",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "name": "Fatou",
+    "age": 150,
+    "preferences": [
+      "animation",
+      "horreur",
+      "comédie"
+    ],
+    "watch_history": [
+      {
+        "movie": "Interstellar",
+        "genre": "sci-fi",
+        "director": "Nolan",
+        "rating": 2
+      },
+      {
+        "movie": "Get Out",
+        "genre": "horreur",
+        "director": "Peele",
+        "rating": 4
+      },
+      {
+        "movie": "The Hangover",
+        "genre": "comédie",
+        "director": "Phillips",
+        "rating": 2
+      },
+      {
+        "movie": "The Hangover",
+        "genre": "comédie",
+        "director": "Phillips",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "name": "Georges",
+    "age": 32,
+    "preferences": [
+      "sci-fi",
+      "thriller"
+    ],
+    "watch_history": [
+      {
+        "movie": "La La Land",
+        "genre": "romance",
+        "director": "Chazelle",
+        "rating": 1
+      },
+      {
+        "movie": "Parasite",
+        "genre": "thriller",
+        "director": "Bong",
+        "rating": 1
+      },
+      {
+        "movie": "Interstellar",
+        "genre": "sci-fi",
+        "director": "Nolan",
+        "rating": 3
+      },
+      {
+        "movie": "Mad Max",
+        "genre": "action",
+        "director": "Miller",
+        "rating": 5
+      },
+      {
+        "movie": "The Hangover",
+        "genre": "comédie",
+        "director": "Phillips",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "name": "Hana",
+    "age": 33,
+    "preferences": [
+      "animation",
+      "horreur"
+    ],
+    "watch_history": [
+      {
+        "movie": "Get Out",
+        "genre": "horreur",
+        "director": "Peele",
+        "rating": 4
+      },
+      {
+        "movie": "Toy Story",
+        "genre": "animation",
+        "director": "Lasseter",
+        "rating": 4
+      },
+      {
+        "movie": "Midsommar",
+        "genre": "horreur",
+        "director": "Aster",
+        "rating": 3
+      },
+      {
+        "movie": "Midsommar",
+        "genre": "",
+        "director": "Aster",
+        "rating": 4
+      },
+      {
+        "movie": "Get Out",
+        "genre": "horreur",
+        "director": "Peele",
+        "rating": 3
+      },
+      {
+        "movie": "Midsommar",
+        "genre": "inconnu",
+        "director": "Aster",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "name": "Ibra",
+    "age": 24,
+    "preferences": [
+      "animation",
+      "romance",
+      "sci-fi"
+    ],
+    "watch_history": [
+      {
+        "movie": "Interstellar",
+        "genre": "sci-fi",
+        "director": "Nolan",
+        "rating": 4
+      },
+      {
+        "movie": "Her",
+        "genre": "sci-fi",
+        "director": null,
+        "rating": 4
+      },
+      {
+        "movie": "Superbad",
+        "genre": "comédie",
+        "director": "Mottola",
+        "rating": 4
+      },
+      {
+        "movie": "Interstellar",
+        "genre": "sci-fi",
+        "director": "Nolan",
+        "rating": 4
+      },
+      {
+        "movie": "La La Land",
+        "genre": "romance",
+        "director": "Chazelle",
+        "rating": 2
+      },
+      {
+        "movie": "The Notebook",
+        "genre": "romance",
+        "director": "Cassavetes",
+        "rating": 4
+      },
+      {
+        "movie": "La La Land",
+        "genre": "romance",
+        "director": "Chazelle",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "name": "Julia",
+    "age": 41,
+    "preferences": [
+      "drame",
+      "action"
+    ],
+    "watch_history": [
+      {
+        "movie": "Get Out",
+        "genre": "horreur",
+        "director": "Peele",
+        "rating": 3
+      },
+      {
+        "movie": "Avengers",
+        "genre": "action",
+        "director": "Russo",
+        "rating": 2
+      },
+      {
+        "movie": "Avengers",
+        "genre": "action",
+        "director": "Russo",
+        "rating": 4
+      },
+      {
+        "movie": "Mad Max",
+        "genre": "action",
+        "director": "Miller",
+        "rating": 5
+      },
+      {
+        "movie": "Mad Max",
+        "genre": "action",
+        "director": "Miller",
+        "rating": 3
+      }
+    ]
+  }
+]
