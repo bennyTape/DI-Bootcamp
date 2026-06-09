@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinéMatch — Recommandations de Films Intelligentes</title>
+    <meta name="description"
+        content="Système de recommandation de films intelligent avec analyse de profil, similarité Pearson et clustering K-Means. Générez votre profil et découvrez vos prochains films préférés.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Animated background orbs -->
+    <div class="bg-effects" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <header>
+        <div class="header-content">
+            <div class="logo-mark"></div>
+            <h1>CinéMatch</h1>
+            <p class="subtitle">Système de recommandation intelligent</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- ═══════ SECTION 1: CRÉER UN UTILISATEUR ═══════ -->
+        <section id="section-create" class="section">
+            <div class="section-header">
+                <span class="section-number">①</span>
+                <h2>Créer un utilisateur</h2>
+            </div>
+
+            <form id="user-form" class="glass-card" autocomplete="off">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="user-name">Nom</label>
+                        <input type="text" id="user-name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-age">Âge</label>
+                        <input type="number" id="user-age" placeholder="25" min="10" max="99" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Genres préférés <span class="label-hint">(sélectionnez au moins 1)</span></label>
+                    <div id="genre-toggles" class="genre-toggles"></div>
+                </div>
+
+                <button type="submit" class="btn-primary" id="btn-generate">
+                    <span class="btn-text">Générer le profil</span>
+                    <span class="btn-icon">→</span>
+                </button>
+            </form>
+
+            <div id="profile-card" class="profile-card glass-card hidden"></div>
+
+            <div id="catalog-section" class="catalog-section hidden">
+                <div class="catalog-header">
+                    <h3>📀 Catalogue de films</h3>
+                    <p class="catalog-hint">Cliquez sur « Regarder » pour ajouter un film à votre historique</p>
+                </div>
+                <div id="catalog-grid" class="catalog-grid"></div>
+            </div>
+        </section>
+
+        <!-- ═══════ SECTION 2: RECOMMANDATIONS ═══════ -->
+        <section id="section-reco" class="section">
+            <div class="section-header">
+                <span class="section-number">②</span>
+                <h2>Recommandations</h2>
+            </div>
+
+            <div id="reco-trigger" class="reco-trigger hidden">
+                <button id="btn-reco" class="btn-primary btn-reco">
+                    <span class="btn-text">Lancer les recommandations</span>
+                    <span class="btn-icon">🔍</span>
+                </button>
+            </div>
+
+            <div id="loading-indicator" class="loading-indicator hidden">
+                <div class="loading-spinner"></div>
+                <p id="loading-text" class="loading-text">Analyse en cours…</p>
+            </div>
+
+            <div id="reco-results" class="reco-results hidden"></div>
+        </section>
+
+
+        <!-- ═══════ SECTION 3: VISUALISATION MATPLOTLIB ═══════ -->
+        <section id="section-matplotlib" class="section">
+            <div class="section-header">
+                <span class="section-number">③</span>
+                <h2>Analyse Matplotlib</h2>
+            </div>
+            <div id="matplotlib-container" class="glass-card matplotlib-card hidden">
+                <div class="matplotlib-header">
+                    <span class="matplotlib-icon">📊</span>
+                    <div>
+                        <div class="matplotlib-title">Graphiques générés par Python / Matplotlib</div>
+                        <div id="matplotlib-subtitle" class="matplotlib-subtitle">Historique de visionnage — mis à jour
+                            automatiquement</div>
+                    </div>
+                </div>
+                <div id="matplotlib-loading" class="matplotlib-loading hidden">
+                    <div class="loading-spinner"></div>
+                    <p class="loading-text">Génération du graphique en cours…</p>
+                </div>
+                <div id="matplotlib-img-wrap" class="matplotlib-img-wrap">
+                    <img id="matplotlib-img" src="" alt="Visualisation matplotlib" class="matplotlib-img" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>CinéMatch © 2026 — Données simulées, aucun backend requis.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

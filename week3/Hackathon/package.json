@@ -1,0 +1,13 @@
+{
+  "name": "cinematch-hackathon",
+  "version": "1.0.0",
+  "description": "Système de recommandation de films intelligent",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
