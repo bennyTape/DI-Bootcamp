@@ -429,5 +429,37 @@
       "Drame"
     ],
     "watch_history": []
+  },
+  {
+    "name": "said",
+    "age": 25,
+    "preferences": [
+      "Action",
+      "Drame",
+      "Horreur"
+    ],
+    "watch_history": [
+      {
+        "movie": "Inception",
+        "genre": "Science-Fiction",
+        "director": "Christopher Nolan",
+        "rating": 4,
+        "date": "2026-06-10"
+      },
+      {
+        "movie": "The Dark Knight",
+        "genre": "Action",
+        "director": "Christopher Nolan",
+        "rating": 4,
+        "date": "2026-06-10"
+      },
+      {
+        "movie": "Arrival",
+        "genre": "Science-Fiction",
+        "director": "Denis Villeneuve",
+        "rating": 4,
+        "date": "2026-06-10"
+      }
+    ]
   }
 ]
