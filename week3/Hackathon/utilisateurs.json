@@ -1,464 +1,3790 @@
 [
   {
-    "name": "Alice",
-    "age": 42,
+    "id": 1,
+    "age": 35,
     "preferences": [
       "action",
       "comédie"
     ],
     "watch_history": [
       {
-        "movie": "The Notebook",
-        "genre": "???",
-        "director": "Cassavetes",
-        "rating": 2
-      },
-      {
-        "movie": "Avengers",
-        "genre": "action",
-        "director": "Russo",
+        "genre": "romance",
         "rating": 5
       },
       {
-        "movie": "Superbad",
         "genre": "comédie",
-        "director": "Mottola",
-        "rating": 3
-      },
-      {
-        "movie": "Avengers",
-        "genre": "action",
-        "director": "Russo",
-        "rating": 3
-      },
-      {
-        "movie": "Parasite",
-        "genre": "???",
-        "director": "Bong",
-        "rating": 3
-      },
-      {
-        "movie": "Avengers",
-        "genre": "action",
-        "director": "Russo",
-        "rating": 2
-      }
-    ]
-  },
-  {
-    "name": "Bob",
-    "age": 37,
-    "preferences": [
-      "animation",
-      "romance",
-      "horreur"
-    ],
-    "watch_history": [
-      {
-        "movie": "The Hangover",
-        "genre": "comédie",
-        "director": "Phillips",
         "rating": 1
       },
       {
-        "movie": "Midsommar",
-        "genre": "horreur",
-        "director": "Aster",
-        "rating": 3
-      },
-      {
-        "movie": "Mad Max",
-        "genre": "action",
-        "director": "Miller",
+        "genre": "animation",
         "rating": 2
       },
       {
-        "movie": "Toy Story",
         "genre": "animation",
-        "director": "Lasseter",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
         "rating": 3
       },
       {
-        "movie": "Get Out",
-        "genre": "horreur",
-        "director": "Peele",
+        "genre": "action",
         "rating": 3
       }
     ]
   },
   {
-    "name": "Clara",
-    "age": 44,
+    "id": 2,
+    "age": 28,
     "preferences": [
+      "comédie",
+      "romance",
+      "thriller"
+    ],
+    "watch_history": [
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "thriller",
+        "rating": 3
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "age": 37,
+    "preferences": [
+      "romance",
+      "thriller"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": null
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "age": 48,
+    "preferences": [
+      "drame",
+      "animation",
       "thriller",
       "sci-fi"
     ],
     "watch_history": [
       {
-        "movie": "Parasite",
-        "genre": "thriller",
-        "director": "Bong",
-        "rating": 4
-      },
-      {
-        "movie": "Her",
-        "genre": "sci-fi",
-        "director": "Jonze",
+        "genre": "comédie",
         "rating": 3
       },
       {
-        "movie": "Interstellar",
-        "genre": "sci-fi",
-        "director": "Nolan",
+        "genre": "comédie",
         "rating": 3
       },
       {
-        "movie": "La La Land",
-        "genre": "romance",
-        "director": "Chazelle",
+        "genre": "horreur",
         "rating": 2
       },
       {
-        "movie": "Her",
-        "genre": "sci-fi",
-        "director": "Jonze",
+        "genre": "horreur",
         "rating": 4
       },
       {
-        "movie": "Inception",
-        "genre": "sci-fi",
-        "director": "Nolan",
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
         "rating": 3
       }
     ]
   },
   {
-    "name": "David",
+    "id": 5,
+    "age": 27,
+    "preferences": [
+      "drame",
+      "comédie"
+    ],
+    "watch_history": [
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "comédie",
+        "rating": 0
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "age": 27,
+    "preferences": [
+      "thriller",
+      "romance"
+    ],
+    "watch_history": [
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 0
+      },
+      {
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": null
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "age": 48,
+    "preferences": [
+      "animation",
+      "horreur",
+      "thriller",
+      "comédie"
+    ],
+    "watch_history": [
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": null
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": null
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 8,
     "age": 39,
     "preferences": [
       "romance",
+      "action",
+      "horreur"
+    ],
+    "watch_history": [
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "age": 24,
+    "preferences": [
+      "drame",
+      "romance",
       "animation",
       "horreur"
     ],
     "watch_history": [
       {
-        "movie": "Midsommar",
-        "genre": "horreur",
-        "director": "Aster",
-        "rating": 99
-      },
-      {
-        "movie": "The Notebook",
-        "genre": "romance",
-        "director": "Cassavetes",
-        "rating": null
-      },
-      {
-        "movie": "The Hangover",
-        "genre": "comédie",
-        "director": "Phillips",
+        "genre": "drame",
         "rating": 1
-      },
-      {
-        "movie": "Toy Story",
-        "genre": "animation",
-        "director": "Lasseter",
-        "rating": 4
-      },
-      {
-        "movie": "Parasite",
-        "genre": "thriller",
-        "director": "Bong",
-        "rating": 0
       }
     ]
   },
   {
-    "name": "Eva",
-    "age": 25,
+    "id": 10,
+    "age": 36,
     "preferences": [
+      "sci-fi",
+      "horreur",
+      "animation"
+    ],
+    "watch_history": [
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": null
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 6
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "age": 24,
+    "preferences": [
+      "horreur",
+      "sci-fi",
+      "comédie"
+    ],
+    "watch_history": [
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "age": 24,
+    "preferences": [
+      "thriller",
+      "action",
+      "sci-fi"
+    ],
+    "watch_history": [
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "age": 32,
+    "preferences": [
+      "comédie",
+      "thriller",
+      "action",
+      "animation"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": null
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "age": 10,
+    "preferences": [
+      "sci-fi",
+      "romance",
+      "action"
+    ],
+    "watch_history": [
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": null
+      },
+      {
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "age": 10,
+    "preferences": [
+      "comédie",
+      "thriller",
+      "animation"
+    ],
+    "watch_history": [
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "age": 23,
+    "preferences": [
+      "horreur",
+      "animation",
+      "sci-fi"
+    ],
+    "watch_history": [
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "age": 17,
+    "preferences": [
+      "sci-fi",
+      "action",
+      "romance"
+    ],
+    "watch_history": [
+      {
+        "genre": "comédie",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "age": 33,
+    "preferences": [
+      "action",
+      "horreur"
+    ],
+    "watch_history": [
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "age": 19,
+    "preferences": [
+      "comédie",
+      "drame",
+      "romance"
+    ],
+    "watch_history": [
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": null
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "age": 13,
+    "preferences": [
+      "horreur",
+      "animation"
+    ],
+    "watch_history": [
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "age": 47,
+    "preferences": [
+      "thriller",
+      "romance",
+      "sci-fi"
+    ],
+    "watch_history": [
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": null
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "age": 27,
+    "preferences": [
+      "animation",
+      "action",
+      "sci-fi",
+      "drame"
+    ],
+    "watch_history": [
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": null
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "age": 30,
+    "preferences": [
+      "thriller",
+      "action",
+      "sci-fi",
+      "comédie"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 7
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": null
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "age": 12,
+    "preferences": [
+      "thriller",
+      "action",
+      "horreur"
+    ],
+    "watch_history": [
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "age": 23,
+    "preferences": [
+      "sci-fi",
+      "horreur",
+      "animation",
+      "drame"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "age": 31,
+    "preferences": [
+      "drame",
+      "horreur",
       "thriller",
       "sci-fi"
     ],
     "watch_history": [
       {
-        "movie": "Parasite",
-        "genre": "thriller",
-        "director": "Bong",
-        "rating": 5
+        "genre": "romance",
+        "rating": 3
       },
       {
-        "movie": "Her",
-        "genre": "sci-fi",
-        "director": "Jonze",
+        "genre": "comédie",
         "rating": 2
       },
       {
-        "movie": "Parasite",
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "age": 16,
+    "preferences": [
+      "romance",
+      "thriller"
+    ],
+    "watch_history": [
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
         "genre": "thriller",
-        "director": "Bong",
         "rating": null
       },
       {
-        "movie": "Midsommar",
-        "genre": "horreur",
-        "director": "Aster",
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "age": 34,
+    "preferences": [
+      "sci-fi",
+      "animation",
+      "drame",
+      "thriller"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
         "rating": 2
       }
     ]
   },
   {
-    "name": "Fatou",
-    "age": 19,
+    "id": 29,
+    "age": 22,
     "preferences": [
-      "romance",
+      "comédie",
+      "horreur",
+      "sci-fi",
       "drame"
     ],
     "watch_history": [
       {
-        "movie": "La La Land",
-        "genre": "romance",
-        "director": "Chazelle",
-        "rating": 10
+        "genre": "horreur",
+        "rating": 5
       },
       {
-        "movie": "The Notebook",
-        "genre": "romance",
-        "director": "Cassavetes",
-        "rating": 4
-      },
-      {
-        "movie": "La La Land",
-        "genre": "romance",
-        "director": "Chazelle",
+        "genre": "sci-fi",
         "rating": 3
       },
       {
-        "movie": "La La Land",
         "genre": "romance",
-        "director": "Chazelle",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "age": 26,
+    "preferences": [
+      "romance",
+      "horreur",
+      "thriller",
+      "sci-fi"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": null
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "age": 22,
+    "preferences": [
+      "romance",
+      "animation"
+    ],
+    "watch_history": [
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "age": 52,
+    "preferences": [
+      "action",
+      "thriller",
+      "drame"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": null
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "age": 29,
+    "preferences": [
+      "thriller",
+      "animation",
+      "romance",
+      "comédie"
+    ],
+    "watch_history": [
+      {
+        "genre": "comédie",
+        "rating": null
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": null
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "age": 17,
+    "preferences": [
+      "sci-fi",
+      "romance",
+      "horreur"
+    ],
+    "watch_history": [
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "age": 39,
+    "preferences": [
+      "comédie",
+      "thriller",
+      "action",
+      "romance"
+    ],
+    "watch_history": [
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "age": 15,
+    "preferences": [
+      "sci-fi",
+      "romance"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": null
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "age": 32,
+    "preferences": [
+      "romance",
+      "animation",
+      "comédie",
+      "action"
+    ],
+    "watch_history": [
+      {
+        "genre": "horreur",
+        "rating": null
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": null
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "age": 10,
+    "preferences": [
+      "comédie",
+      "romance"
+    ],
+    "watch_history": [
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
         "rating": 2
       }
     ]
   },
   {
-    "name": "Georges",
-    "age": null,
+    "id": 39,
+    "age": 14,
     "preferences": [
+      "romance",
+      "comédie",
+      "sci-fi",
+      "action"
+    ],
+    "watch_history": [
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": null
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 10
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": null
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "age": 32,
+    "preferences": [
+      "horreur",
+      "romance",
+      "action"
+    ],
+    "watch_history": [
+      {
+        "genre": "comédie",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "age": 38,
+    "preferences": [
+      "sci-fi",
+      "animation",
+      "drame"
+    ],
+    "watch_history": [
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "age": 32,
+    "preferences": [
+      "comédie",
+      "horreur",
+      "animation"
+    ],
+    "watch_history": [
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "age": 28,
+    "preferences": [
+      "animation",
       "action",
       "drame",
       "comédie"
     ],
     "watch_history": [
       {
-        "movie": "The Hangover",
-        "genre": "comédie",
-        "director": "Phillips",
-        "rating": 3
-      },
-      {
-        "movie": "Mad Max",
-        "genre": "action",
-        "director": "Miller",
-        "rating": null
-      },
-      {
-        "movie": "Interstellar",
-        "genre": "sci-fi",
-        "director": "Nolan",
-        "rating": 3
-      },
-      {
-        "movie": "Superbad",
-        "genre": "comédie",
-        "director": "Mottola",
+        "genre": "thriller",
         "rating": 2
       },
       {
-        "movie": "The Hangover",
-        "genre": "comédie",
-        "director": "Phillips",
-        "rating": 2
-      },
-      {
-        "movie": "Get Out",
-        "genre": "N/A",
-        "director": "Peele",
-        "rating": 4
-      }
-    ]
-  },
-  {
-    "name": "Hana",
-    "age": 25,
-    "preferences": [
-      "action",
-      "drame"
-    ],
-    "watch_history": [
-      {
-        "movie": "Interstellar",
-        "genre": "sci-fi",
-        "director": "Nolan",
-        "rating": 3
-      },
-      {
-        "movie": "La La Land",
-        "genre": "romance",
-        "director": "Chazelle",
+        "genre": "animation",
         "rating": 1
       },
       {
-        "movie": "Parasite",
-        "genre": "thriller",
-        "director": "Bong",
-        "rating": 99
+        "genre": "drame",
+        "rating": null
       },
       {
-        "movie": "Mad Max",
-        "genre": "action",
-        "director": "Miller",
+        "genre": "sci-fi",
         "rating": 4
       },
       {
-        "movie": "La La Land",
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
         "genre": "romance",
-        "director": "Chazelle",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
         "rating": 3
       },
       {
-        "movie": "Avengers",
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
         "genre": "action",
-        "director": "Russo",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
         "rating": 4
       }
     ]
   },
   {
-    "name": "Ibra",
-    "age": 15,
+    "id": 44,
+    "age": 26,
     "preferences": [
       "action",
+      "animation"
+    ],
+    "watch_history": [
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "animation",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "age": 12,
+    "preferences": [
+      "action",
+      "romance"
+    ],
+    "watch_history": [
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": null
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "age": 21,
+    "preferences": [
+      "horreur",
+      "sci-fi",
+      "romance",
+      "comédie"
+    ],
+    "watch_history": [
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "age": 24,
+    "preferences": [
+      "romance",
+      "action"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "age": 42,
+    "preferences": [
+      "comédie",
       "drame"
     ],
     "watch_history": [
       {
-        "movie": "Mad Max",
-        "genre": "",
-        "director": "Miller",
+        "genre": "action",
         "rating": 2
       },
       {
-        "movie": "Mad Max",
-        "genre": "action",
-        "director": "Miller",
-        "rating": 2
-      },
-      {
-        "movie": "The Dark Knight",
-        "genre": "action",
-        "director": "Nolan",
+        "genre": "thriller",
         "rating": 4
-      },
-      {
-        "movie": "Avengers",
-        "genre": "action",
-        "director": "Russo",
-        "rating": 4
-      },
-      {
-        "movie": "Get Out",
-        "genre": "horreur",
-        "director": "Peele",
-        "rating": 3
-      },
-      {
-        "movie": "The Dark Knight",
-        "genre": "action",
-        "director": "Nolan",
-        "rating": 4
-      },
-      {
-        "movie": "The Dark Knight",
-        "genre": "action",
-        "director": "Nolan",
-        "rating": 3
       }
     ]
   },
   {
-    "name": "Julia",
-    "age": 17,
+    "id": 49,
+    "age": 34,
     "preferences": [
-      "drame",
+      "thriller",
+      "animation",
+      "sci-fi"
+    ],
+    "watch_history": [
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "age": 10,
+    "preferences": [
+      "thriller",
+      "horreur",
+      "action",
+      "romance"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 10
+      },
+      {
+        "genre": "animation",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "age": 33,
+    "preferences": [
+      "thriller",
+      "romance",
       "comédie",
       "sci-fi"
     ],
     "watch_history": [
       {
-        "movie": "Superbad",
-        "genre": "comédie",
-        "director": "Mottola",
+        "genre": "drame",
         "rating": 2
       },
       {
-        "movie": "The Dark Knight",
-        "genre": "action",
-        "director": "Nolan",
-        "rating": 2
+        "genre": "horreur",
+        "rating": 3
       },
       {
-        "movie": "Avengers",
         "genre": "action",
-        "director": "Russo",
         "rating": 4
       },
       {
-        "movie": "The Notebook",
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
         "genre": "romance",
-        "director": "Cassavetes",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
         "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 3
       }
     ]
   },
   {
-    "name": "Bakary",
-    "age": 26,
-    "preferences": [
-      "Action",
-      "Drame"
-    ],
-    "watch_history": []
-  },
-  {
-    "name": "said",
+    "id": 52,
     "age": 25,
     "preferences": [
-      "Action",
-      "Drame",
-      "Horreur"
+      "horreur",
+      "sci-fi",
+      "drame",
+      "animation"
     ],
     "watch_history": [
       {
-        "movie": "Inception",
-        "genre": "Science-Fiction",
-        "director": "Christopher Nolan",
-        "rating": 4,
-        "date": "2026-06-10"
+        "genre": "thriller",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "age": 21,
+    "preferences": [
+      "action",
+      "animation",
+      "horreur"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 2
       },
       {
-        "movie": "The Dark Knight",
-        "genre": "Action",
-        "director": "Christopher Nolan",
-        "rating": 4,
-        "date": "2026-06-10"
+        "genre": "comédie",
+        "rating": 5
       },
       {
-        "movie": "Arrival",
-        "genre": "Science-Fiction",
-        "director": "Denis Villeneuve",
-        "rating": 4,
-        "date": "2026-06-10"
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "animation",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "age": 37,
+    "preferences": [
+      "romance",
+      "sci-fi",
+      "action"
+    ],
+    "watch_history": [
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "action",
+        "rating": 1
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 3
+      },
+      {
+        "genre": "action",
+        "rating": 2
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "thriller",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "age": 42,
+    "preferences": [
+      "romance",
+      "horreur",
+      "thriller"
+    ],
+    "watch_history": [
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "drame",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "animation",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "animation",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "age": 41,
+    "preferences": [
+      "action",
+      "comédie"
+    ],
+    "watch_history": [
+      {
+        "genre": "drame",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 1
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "comédie",
+        "rating": 2
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 4
+      },
+      {
+        "genre": "drame",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 1
+      },
+      {
+        "genre": "comédie",
+        "rating": null
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 2
+      },
+      {
+        "genre": "drame",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": null
+      },
+      {
+        "genre": "drame",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "age": 19,
+    "preferences": [
+      "drame",
+      "comédie",
+      "romance",
+      "animation"
+    ],
+    "watch_history": [
+      {
+        "genre": "comédie",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "thriller",
+        "rating": 3
+      },
+      {
+        "genre": "sci-fi",
+        "rating": 5
+      },
+      {
+        "genre": "romance",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 3
+      },
+      {
+        "genre": "comédie",
+        "rating": 1
+      },
+      {
+        "genre": "romance",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
+      },
+      {
+        "genre": "romance",
+        "rating": 4
+      },
+      {
+        "genre": "action",
+        "rating": 3
+      },
+      {
+        "genre": "horreur",
+        "rating": 3
+      },
+      {
+        "genre": "animation",
+        "rating": 2
+      },
+      {
+        "genre": "thriller",
+        "rating": 5
+      },
+      {
+        "genre": "horreur",
+        "rating": 4
+      },
+      {
+        "genre": "thriller",
+        "rating": 4
       }
     ]
   }
