@@ -3787,5 +3787,177 @@
         "rating": 4
       }
     ]
+  },
+  {
+    "name": "Alice",
+    "age": 25,
+    "preferences": [
+      "Comédie",
+      "Thriller"
+    ],
+    "watch_history": [
+      {
+        "movie": "Parasite",
+        "genre": "Thriller",
+        "director": "Bong Joon-ho",
+        "rating": 3,
+        "date": "2026-06-12"
+      },
+      {
+        "movie": "The Dark Knight",
+        "genre": "Action",
+        "director": "Christopher Nolan",
+        "rating": 4,
+        "date": "2026-06-12"
+      },
+      {
+        "movie": "Inception",
+        "genre": "Science-Fiction",
+        "director": "Christopher Nolan",
+        "rating": 3,
+        "date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "name": "benny",
+    "age": 22,
+    "preferences": [
+      "Comédie",
+      "Drame"
+    ],
+    "watch_history": []
+  },
+  {
+    "name": "jude koffi",
+    "age": 26,
+    "preferences": [
+      "Comédie",
+      "Science-Fiction",
+      "Animation"
+    ],
+    "watch_history": [
+      {
+        "movie": "Grand Budapest Hotel",
+        "genre": "Comédie",
+        "director": "Wes Anderson",
+        "rating": 4,
+        "date": "2026-06-12"
+      },
+      {
+        "movie": "Interstellar",
+        "genre": "Science-Fiction",
+        "director": "Christopher Nolan",
+        "rating": 4,
+        "date": "2026-06-12"
+      },
+      {
+        "movie": "Arrival",
+        "genre": "Science-Fiction",
+        "director": "Denis Villeneuve",
+        "rating": 4,
+        "date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "name": "SAID",
+    "age": 22,
+    "preferences": [
+      "Action",
+      "Science-Fiction",
+      "Animation"
+    ],
+    "watch_history": [
+      {
+        "movie": "Inception",
+        "genre": "Science-Fiction",
+        "director": "Christopher Nolan",
+        "rating": 4,
+        "date": "2026-06-12"
+      },
+      {
+        "movie": "Interstellar",
+        "genre": "Science-Fiction",
+        "director": "Christopher Nolan",
+        "rating": 5,
+        "date": "2026-06-12"
+      },
+      {
+        "movie": "Arrival",
+        "genre": "Science-Fiction",
+        "director": "Denis Villeneuve",
+        "rating": 5,
+        "date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "name": "jean",
+    "age": 22,
+    "preferences": [
+      "Action",
+      "Science-Fiction",
+      "Animation"
+    ],
+    "watch_history": [
+      {
+        "movie": "The Dark Knight",
+        "genre": "Action",
+        "director": "Christopher Nolan",
+        "rating": 3,
+        "date": "2026-06-12"
+      },
+      {
+        "movie": "Mad Max: Fury Road",
+        "genre": "Action",
+        "director": "George Miller",
+        "rating": 5,
+        "date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "name": "Test",
+    "age": 25,
+    "preferences": [
+      "Action",
+      "Drame",
+      "Animation"
+    ],
+    "watch_history": [
+      {
+        "movie": "The Dark Knight",
+        "genre": "Action",
+        "director": "Christopher Nolan",
+        "rating": 4,
+        "date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "name": "benni",
+    "age": 21,
+    "preferences": [
+      "Action",
+      "Drame",
+      "Horreur"
+    ],
+    "watch_history": [
+      {
+        "movie": "The Dark Knight",
+        "genre": "Action",
+        "director": "Christopher Nolan",
+        "rating": 4,
+        "date": "2026-06-12"
+      },
+      {
+        "movie": "Mad Max: Fury Road",
+        "genre": "Action",
+        "director": "George Miller",
+        "rating": 1,
+        "date": "2026-06-12"
+      }
+    ]
   }
 ]

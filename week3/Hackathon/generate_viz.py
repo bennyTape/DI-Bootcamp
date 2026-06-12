@@ -23,6 +23,10 @@ GENRES_VALIDES = ["action", "drame", "comédie", "thriller", "sci-fi", "horreur"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
+def get_user_name(u: dict) -> str:
+    return u.get("name") or f"Utilisateur {u.get('id', '')}"
+
+
 def charger_utilisateurs() -> list:
     path = os.path.join(SCRIPT_DIR, "utilisateurs.json")
     try:
@@ -52,7 +56,7 @@ def pie_genres(utilisateur: dict, ax: plt.Axes):
     if not genres:
         ax.text(0.5, 0.5, "Aucun genre valide", ha='center', va='center',
                 fontsize=13, transform=ax.transAxes)
-        ax.set_title(f"Genres visionnés — {utilisateur['name']}", fontsize=13, fontweight="bold")
+        ax.set_title(f"Genres visionnés — {get_user_name(utilisateur)}", fontsize=13, fontweight="bold")
         ax.axis('off')
         return
 
@@ -69,7 +73,7 @@ def pie_genres(utilisateur: dict, ax: plt.Axes):
         startangle=140,
         pctdistance=0.8,
     )
-    ax.set_title(f"Genres visionnés — {utilisateur['name']}", fontsize=13, fontweight="bold")
+    ax.set_title(f"Genres visionnés — {get_user_name(utilisateur)}", fontsize=13, fontweight="bold")
 
 
 def line_notes(utilisateur: dict, ax: plt.Axes):
@@ -82,7 +86,7 @@ def line_notes(utilisateur: dict, ax: plt.Axes):
     if not valides:
         ax.text(0.5, 0.5, "Aucune note valide", ha='center', va='center',
                 fontsize=13, transform=ax.transAxes)
-        ax.set_title(f"Notes au fil du temps — {utilisateur['name']}", fontsize=13, fontweight="bold")
+        ax.set_title(f"Notes au fil du temps — {get_user_name(utilisateur)}", fontsize=13, fontweight="bold")
         return
 
     dates  = [h["date"] for h in valides]
@@ -99,7 +103,7 @@ def line_notes(utilisateur: dict, ax: plt.Axes):
         ax.axvline(x=h["date"], color='red', linestyle='--', alpha=0.3, linewidth=1)
         ax.text(h["date"], 0.2, '✕', color='red', fontsize=9, ha='center')
 
-    ax.set_title(f"Notes au fil du temps — {utilisateur['name']}", fontsize=13, fontweight="bold")
+    ax.set_title(f"Notes au fil du temps — {get_user_name(utilisateur)}", fontsize=13, fontweight="bold")
     ax.set_xlabel("Date")
     ax.set_ylabel("Note (1–5)")
     ax.set_ylim(0, 5.5)
@@ -118,7 +122,7 @@ def generer_visualisation(nom_utilisateur: str = None):
     cible = None
     if nom_utilisateur:
         for u in utilisateurs:
-            if u["name"].lower() == nom_utilisateur.lower():
+            if get_user_name(u).lower() == nom_utilisateur.lower():
                 cible = u
                 break
 
@@ -126,10 +130,10 @@ def generer_visualisation(nom_utilisateur: str = None):
         # Prendre le dernier utilisateur ajouté (le plus récent)
         cible = utilisateurs[-1]
 
-    print(f" Visualisation pour : {cible['name']}")
+    print(f" Visualisation pour : {get_user_name(cible)}")
 
     fig, axes = plt.subplots(1, 2, figsize=(14, 6))
-    fig.suptitle(f"Analyse de visionnage — {cible['name']}", fontsize=15, fontweight="bold", y=1.01)
+    fig.suptitle(f"Analyse de visionnage — {get_user_name(cible)}", fontsize=15, fontweight="bold", y=1.01)
 
     pie_genres(cible, axes[0])
     line_notes(cible, axes[1])

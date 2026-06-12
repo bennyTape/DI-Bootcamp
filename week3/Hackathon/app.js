@@ -48,7 +48,6 @@ const LOADING_MESSAGES = [
     'Analyse en cours…',
     'Calcul des préférences…',
     'Recherche de profils similaires…',
-    'Corrélation de Pearson…',
     'Application du clustering K-Means…',
     'Génération des recommandations…'
 ];
@@ -107,7 +106,7 @@ async function saveUserToAPI(user) {
         };
 
         // Check if user already exists
-        const existingIndex = allUsers.findIndex(u => u.name === user.name);
+        const existingIndex = allUsers.findIndex(u => (u.name || `Utilisateur ${u.id}`).toLowerCase() === user.name.toLowerCase());
         if (existingIndex !== -1) {
             // Update existing user
             const response = await fetch(`/api/users/${user.name}`, {
@@ -785,31 +784,51 @@ function renderCatalog() {
     const grid = document.getElementById('catalog-grid');
     const watchedIds = new Set(currentUser.history.map(h => h.film.id));
 
-    grid.innerHTML = CATALOG.map(film => {
-        const isWatched = watchedIds.has(film.id);
-        return `
-            <div class="catalog-card${isWatched ? ' watched' : ''}" data-film-id="${film.id}">
-                <div class="catalog-card-top">
-                    ${renderGenreBadge(film.genre)}
-                    <div class="film-info">
-                        <span class="film-title">${film.title}</span>
-                        <span class="film-director">${film.director}</span>
-                    </div>
-                </div>
-                <div class="catalog-card-bottom">
-                    <div class="catalog-avg">
-                        <span class="star filled">★</span> ${film.avgRating.toFixed(1)} moyenne
-                    </div>
-                    <button class="btn-watch${isWatched ? ' watched' : ''}"
-                            onclick="handleWatchFilm(${film.id})"
-                            ${isWatched ? 'disabled' : ''}>
-                        ${isWatched ? '✓ Vu' : '▶ Regarder'}
-                    </button>
+    let html = '';
+    currentUser.preferredGenres.forEach(genre => {
+        // Find films in this genre
+        const genreFilms = CATALOG.filter(f => f.genre === genre);
+        if (genreFilms.length === 0) return;
+
+        // Sort by average rating descending, then take top 3
+        const topFilms = [...genreFilms]
+            .sort((a, b) => b.avgRating - a.avgRating)
+            .slice(0, 3);
+
+        html += `
+            <div class="genre-section">
+                <h4 class="genre-section-title" style="color: ${GENRE_COLORS[genre]}">${genre}</h4>
+                <div class="catalog-grid">
+                    ${topFilms.map(film => {
+                        const isWatched = watchedIds.has(film.id);
+                        return `
+                            <div class="catalog-card${isWatched ? ' watched' : ''}" data-film-id="${film.id}">
+                                <div class="catalog-card-top">
+                                    ${renderGenreBadge(film.genre)}
+                                    <div class="film-info">
+                                        <span class="film-title">${film.title}</span>
+                                        <span class="film-director">${film.director}</span>
+                                    </div>
+                                </div>
+                                <div class="catalog-card-bottom">
+                                    <div class="catalog-avg">
+                                        <span class="star filled">★</span> ${film.avgRating.toFixed(1)} moyenne
+                                    </div>
+                                    <button class="btn-watch${isWatched ? ' watched' : ''}"
+                                            onclick="handleWatchFilm(${film.id})"
+                                            ${isWatched ? 'disabled' : ''}>
+                                        ${isWatched ? '✓ Vu' : '▶ Regarder'}
+                                    </button>
+                                </div>
+                            </div>
+                        `;
+                    }).join('')}
                 </div>
             </div>
         `;
-    }).join('');
+    });
 
+    grid.innerHTML = html;
     section.classList.remove('hidden');
 }
 
@@ -907,40 +926,7 @@ function renderRecommendations(prefRecos, simResult, clusterResult, inspiringMsg
     // Block 1: By Preferences
     html += `
         <div class="reco-block">
-            <div class="reco-block-header">
-                <div class="reco-block-icon pref">🎯</div>
-                <div>
-                    <div class="reco-block-title">Par préférences</div>
-                    <div class="reco-block-subtitle">Films correspondant à vos genres favoris</div>
-                </div>
-            </div>
-            <div class="reco-film-list">
-                ${prefRecos.length > 0
-                    ? prefRecos.map(f => renderFilmCard(f, f.avgRating)).join('')
-                    : '<div class="reco-empty">Aucune recommandation disponible — tous les films de vos genres ont été vus.</div>'
-                }
-            </div>
-        </div>
-    `;
-
-    // Block 2: By Similarity (Pearson)
-    const corrDisplay = simResult.correlation !== undefined ? (simResult.correlation * 100).toFixed(0) : '—';
-    html += `
-        <div class="reco-block">
-            <div class="reco-block-header">
-                <div class="reco-block-icon sim">🔗</div>
-                <div>
-                    <div class="reco-block-title">Par similarité (Pearson)</div>
-                    <div class="reco-block-subtitle">Utilisateur le plus similaire identifié</div>
-                </div>
-            </div>
-            ${simResult.user ? `<div class="similarity-info">Profil le plus proche : <strong>${simResult.user.name}</strong> — corrélation : <strong>${corrDisplay}%</strong></div>` : ''}
-            <div class="reco-film-list">
-                ${simResult.films.length > 0
-                    ? simResult.films.map(f => renderFilmCard(f, f.avgRating)).join('')
-                    : '<div class="reco-empty">Aucun film bien noté non vu trouvé chez l\'utilisateur le plus similaire.</div>'
-                }
-            </div>
+            
         </div>
     `;
 
@@ -950,8 +936,8 @@ function renderRecommendations(prefRecos, simResult, clusterResult, inspiringMsg
             <div class="reco-block-header">
                 <div class="reco-block-icon cluster">🧩</div>
                 <div>
-                    <div class="reco-block-title">Par cluster (K-Means)</div>
-                    <div class="reco-block-subtitle">${clusterResult.clusterSize} utilisateur(s) dans votre cluster</div>
+                  
+                    <div class="reco-block-subtitle">${clusterResult.clusterSize} utilisateur(s) similaire à vous</div>
                 </div>
             </div>
             <div class="reco-film-list">
@@ -1035,7 +1021,7 @@ async function handleCreateUser(e) {
     const preferredGenres = [...selectedGenres];
 
     // Check if the user already exists to load their existing history!
-    const existing = allUsers.find(u => u.name.toLowerCase() === name.toLowerCase());
+    const existing = allUsers.find(u => (u.name || `Utilisateur ${u.id}`).toLowerCase() === name.toLowerCase());
     let history = [];
     if (existing && existing.watch_history) {
         history = existing.watch_history.map(h => {
@@ -1093,8 +1079,8 @@ async function handleRecommendations() {
         ? validHistory[validHistory.length - 1].film.title
         : currentUser.history[currentUser.history.length - 1].film.title;
 
-    // First recommendation from any source
-    const allRecos = [...prefRecos, ...simResult.films, ...clusterResult.films];
+    // First recommendation from any source (excluding Pearson)
+    const allRecos = [...prefRecos, ...clusterResult.films];
     const firstReco = allRecos.length > 0 ? allRecos[0].title : null;
 
     const inspiringMsg = firstReco ? { lastFilm, recommendation: firstReco } : null;

@@ -61,7 +61,7 @@ app.put('/api/users/:name', (req, res) => {
         }
 
         const userName = req.params.name;
-        const index = users.findIndex(u => u.name === userName);
+        const index = users.findIndex(u => (u.name || `Utilisateur ${u.id}`).toLowerCase() === userName.toLowerCase());
 
         if (index !== -1) {
             users[index] = req.body;

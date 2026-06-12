@@ -925,6 +925,21 @@ footer {
     color: var(--text-muted);
 }
 
+.genre-section {
+    margin-bottom: var(--space-xl);
+    animation: fade-in-up 0.5s var(--ease-out-expo) backwards;
+}
+
+.genre-section-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-xs);
+    border-bottom: 1px solid var(--border-subtle);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
 .catalog-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
