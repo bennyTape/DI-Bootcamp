@@ -3959,5 +3959,57 @@
         "date": "2026-06-12"
       }
     ]
+  },
+  {
+    "name": "SINON",
+    "age": 20,
+    "preferences": [
+      "Action",
+      "Science-Fiction",
+      "Animation"
+    ],
+    "watch_history": [
+      {
+        "movie": "The Dark Knight",
+        "genre": "Action",
+        "director": "Christopher Nolan",
+        "rating": 5,
+        "date": "2026-06-12"
+      },
+      {
+        "movie": "Inception",
+        "genre": "Science-Fiction",
+        "director": "Christopher Nolan",
+        "rating": 4,
+        "date": "2026-06-12"
+      },
+      {
+        "movie": "Coco",
+        "genre": "Animation",
+        "director": "Lee Unkrich",
+        "rating": 5,
+        "date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "name": "Sinon",
+    "age": 29,
+    "preferences": [
+      "Action",
+      "Science-Fiction",
+      "Animation"
+    ],
+    "watch_history": []
+  },
+  {
+    "name": "Sinon",
+    "age": 29,
+    "preferences": [
+      "Action",
+      "Science-Fiction",
+      "Animation"
+    ],
+    "watch_history": []
   }
 ]
